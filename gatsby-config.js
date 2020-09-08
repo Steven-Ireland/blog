@@ -6,6 +6,8 @@
 
 const { NODE_ENV } = process.env;
 
+const baseProtocol = NODE_ENV === 'production' ? 'https' : 'http';
+
 const baseUrl = NODE_ENV === 'production' ? 'stevenire.land' : 'localhost:8000';
 
 module.exports = {
@@ -33,7 +35,7 @@ module.exports = {
               urlOverrides: [
                 {
                   id: 'twitch',
-                  embedURL: (videoId) => `http://${baseUrl}/${videoId}.mp4`,
+                  embedURL: (videoId) => `${baseProtocol}://${baseUrl}/${videoId}.mp4`,
                 }
               ] 
             }
