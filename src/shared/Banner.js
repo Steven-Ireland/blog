@@ -8,10 +8,7 @@ const Banner = ({ data }) => (
         <Link to="/">{data.site.siteMetadata.title}</Link>
       </h1>
       <h2>
-        <Link to="/contact">Contact</Link>
-      </h2>
-      <h2>
-        <a href="https://www.linkedin.com/in/steven-ireland-6b545774/">Linkedin</a>
+        <Link to="/posts">Posts & Projects</Link>
       </h2>
     </section>
   )} />

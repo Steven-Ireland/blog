@@ -105,7 +105,7 @@ h1, h2 {
 }
 
 .Contact a:not(:last-child) {
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
 .Contact svg {
@@ -124,4 +124,25 @@ h1, h2 {
 
 .gatsby-highlight pre[class*="language-"] {
   border-radius: 10px;
+}
+
+.profile {
+  padding-top: 2em;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.profile h1 {
+  margin: auto;
+  margin-left: 1em;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.About p, .About li, .About h1 {
+  font-family: "Roboto";
 }
