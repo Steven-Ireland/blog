@@ -22,7 +22,7 @@ const About = ({ data }) => {
       </p>
       <p>
         In my day job I define high level system architecture, facilitate tough conversations and drive organizational alignment,
-        and partner closely with product managers to create, shape, and realize new platform features.
+        and partner closely with product managers to create, shape, and deliver new platform features.
       </p>
       <p>
         Outside of work, I hack on a slew of projects including:
