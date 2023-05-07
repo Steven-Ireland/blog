@@ -25,7 +25,7 @@ const About = ({ data }) => {
         and partner closely with product managers to create, shape, and realize new platform features.
       </p>
       <p>
-        Outside of work, I maintain a slew of projects including:
+        Outside of work, I hack on a slew of projects including:
       </p>
       <ul>
         <li>A Reinforcement Learning based Unity Game where fantastical creatures learn to walk <a href={GH_IMPROVEMENTML}><Link size={12}/></a></li>
