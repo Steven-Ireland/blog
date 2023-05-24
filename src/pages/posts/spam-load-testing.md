@@ -161,4 +161,6 @@ brew install spam
 If you're on linux, download the latest release binary from [here](https://github.com/Steven-Ireland/spam/releases/)
 and install wherever it's convenient.
 
+If you just want to browse the code, it's available here: https://github.com/Steven-Ireland/spam
+
 Thanks for reading, and good luck spamming your APIs!
